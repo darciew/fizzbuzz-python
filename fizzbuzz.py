@@ -7,3 +7,6 @@ def FizzBuzz(number):
       return("Buzz")
     else:
       return number
+
+for num in range(101):
+    print(FizzBuzz(num))
