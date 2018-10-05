@@ -9,5 +9,8 @@ class FizzBuzzTest(unittest.TestCase):
     def test_prints_fizz_if_divisible_by_three(self):
         self.assertEqual(FizzBuzz(3), "Fizz")
 
+    def test_prints_buzz_if_divisible_by_five(self):
+        self.assertEqual(FizzBuzz(5), "Buzz")
+
 if __name__ == '__main__':
     unittest.main()

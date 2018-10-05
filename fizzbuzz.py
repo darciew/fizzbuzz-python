@@ -3,3 +3,5 @@ def FizzBuzz(number):
       return("FizzBuzz")
     elif number % 3 == 0:
       return("Fizz")
+    elif number % 5 == 0:
+      return("Buzz")
